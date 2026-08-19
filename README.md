@@ -1,6 +1,6 @@
-# Rabanne Akademie
+# Rabanne | The New Million
 
-Jednoduchá statická webová stránka připravená pro Cloudflare Pages.
+Jednoduchá statická produktová stránka představující nové vůně Rabanne 1 Million Black a Million Red for Her. Připravená pro Cloudflare Pages.
 
 ## Lokálně
 
@@ -23,6 +23,6 @@ Protože jde o čistý statický web, Cloudflare nepotřebuje žádný framework
 
 ## Úpravy
 
-- Texty a struktura: `index.html`
+- Texty, struktura a produktové odkazy: `index.html`
 - Vzhled a responzivita: `styles.css`
-- Chování formuláře: `script.js`
+- Navigace: `script.js`

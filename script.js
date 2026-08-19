@@ -1,9 +1,6 @@
-const form = document.querySelector('#signup-form');
-const note = document.querySelector('#form-note');
-
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const email = new FormData(form).get('email');
-  note.textContent = `Děkujeme. Na adresu ${email} pošleme další informace.`;
-  form.reset();
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener('click', () => {
+    document.querySelectorAll('nav a').forEach((navLink) => navLink.removeAttribute('aria-current'));
+    link.setAttribute('aria-current', 'page');
+  });
 });
