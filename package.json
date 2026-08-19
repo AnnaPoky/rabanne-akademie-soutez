@@ -1,0 +1,9 @@
+{
+  "name": "rabanne-akademie-soutez",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "node -e \"console.log('Static site ready for Cloudflare Pages')\""
+  }
+}
